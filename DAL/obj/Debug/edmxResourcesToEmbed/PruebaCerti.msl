@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PruebaCertiModelStoreContainer" CdmEntityContainer="PruebaCertiEntities">
+    <EntitySetMapping Name="Bitacora_CertiC">
+      <EntityTypeMapping TypeName="PruebaCertiModel.Bitacora_CertiC">
+        <MappingFragment StoreEntitySet="Bitacora_CertiC">
+          <ScalarProperty Name="metodo" ColumnName="metodo" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="Id_Bitacora" ColumnName="Id_Bitacora" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaCertiC", "PruebaCertiC.csproj", "{70C886D5-D9EA-4BB8-9FDC-880E5E544E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{FB1B94A1-CFEE-4380-94E9-4F8AD0B2E743}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C886D5-D9EA-4BB8-9FDC-880E5E544E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C886D5-D9EA-4BB8-9FDC-880E5E544E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C886D5-D9EA-4BB8-9FDC-880E5E544E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C886D5-D9EA-4BB8-9FDC-880E5E544E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1B94A1-CFEE-4380-94E9-4F8AD0B2E743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1B94A1-CFEE-4380-94E9-4F8AD0B2E743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1B94A1-CFEE-4380-94E9-4F8AD0B2E743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1B94A1-CFEE-4380-94E9-4F8AD0B2E743}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1692B59-5937-418A-8474-64F0736AD851}
+	EndGlobalSection
+EndGlobal

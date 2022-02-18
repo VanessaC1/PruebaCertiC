@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PruebaCertiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PruebaCertiEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bitacora_CertiC" EntityType="PruebaCertiModel.Bitacora_CertiC" />
+  </EntityContainer>
+  <EntityType Name="Bitacora_CertiC">
+    <Key>
+      <PropertyRef Name="Id_Bitacora" />
+    </Key>
+    <Property Name="Id_Bitacora" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="fecha" Type="DateTime" Precision="3" />
+    <Property Name="metodo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
